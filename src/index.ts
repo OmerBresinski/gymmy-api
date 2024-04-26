@@ -9,7 +9,7 @@ app.use(cors());
 app.use("/api", apiRouter);
 
 app.get("/", (req, res) => {
-  res.send("Hello, TypeScript with Express!");
+  res.send("Hello, Omer Bresinski!");
 });
 
 app.listen(process.env.PORT, () => {
