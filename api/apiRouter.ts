@@ -11,3 +11,7 @@ apiRouter.use(
     config: {},
   })
 );
+
+apiRouter.get("/", (req, res) => {
+  res.send("API ROUTER YEE");
+});
